@@ -78,7 +78,7 @@ const LoginScreenLogin = (props) => {
                 {props?.emailtext}
               </Text>
               <Input
-                name="textinput_One"
+                name="textinputone"
                 placeholder=""
                 className="p-0 w-full"
                 wrapClassName="flex h-12 outline outline-[1px] outline-black-900 w-full"
@@ -95,7 +95,7 @@ const LoginScreenLogin = (props) => {
                 {props?.passwordtext}
               </Text>
               <Input
-                name="textinput_Two"
+                name="textinputtwo"
                 placeholder=""
                 className="p-0 w-full"
                 wrapClassName="flex h-12 outline outline-[1px] outline-black-900 w-full"
@@ -112,7 +112,7 @@ const LoginScreenLogin = (props) => {
                 size="md"
                 variant="fill"
               >
-                {props?.signupbuttontext}
+                {props?.signupbutton}
               </Button>
               <Button
                 className="cursor-pointer flex items-center justify-center min-w-[1292px] md:min-w-full"
@@ -129,7 +129,7 @@ const LoginScreenLogin = (props) => {
                 variant="fill"
               >
                 <div className="!text-white-A700 font-roboto text-base text-left">
-                  {props?.signupwithgoogletext}
+                  {props?.googlesignupbutton}
                 </div>
               </Button>
             </div>
@@ -156,8 +156,8 @@ LoginScreenLogin.defaultProps = {
   nametext: "Name*",
   emailtext: "Email*",
   passwordtext: "Password*",
-  signupbuttontext: "Sign Up",
-  signupwithgoogletext: "Sign Up with Google",
+  signupbutton: "Sign Up",
+  googlesignupbutton: "Sign Up with Google",
   copyrighttext: "© 2022 Relume",
 };
 

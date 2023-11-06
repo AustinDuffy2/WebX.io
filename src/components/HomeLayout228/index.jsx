@@ -40,7 +40,7 @@ const HomeLayout228 = (props) => {
                 size="sm"
                 variant="fill"
               >
-                {props?.actionbuttonone}
+                {props?.buttonlabel}
               </Button>
               <Button
                 className="cursor-pointer flex items-center justify-center min-w-[76px] rounded-[9px]"
@@ -56,7 +56,7 @@ const HomeLayout228 = (props) => {
                 variant="fill"
               >
                 <div className="!text-black-900 font-roboto text-base text-left">
-                  {props?.actionbuttontwo}
+                  {props?.buttonlabelone}
                 </div>
               </Button>
             </div>
@@ -91,7 +91,7 @@ const HomeLayout228 = (props) => {
                 size="sm"
                 variant="fill"
               >
-                {props?.actionbuttonone1}
+                {props?.buttonlabel1}
               </Button>
               <Button
                 className="cursor-pointer flex items-center justify-center min-w-[76px] rounded-[9px]"
@@ -107,7 +107,7 @@ const HomeLayout228 = (props) => {
                 variant="fill"
               >
                 <div className="!text-black-900 font-roboto text-base text-left">
-                  {props?.actionbuttontwo1}
+                  {props?.buttonlabelone1}
                 </div>
               </Button>
             </div>
@@ -142,7 +142,7 @@ const HomeLayout228 = (props) => {
                 size="sm"
                 variant="fill"
               >
-                {props?.actionbuttonone2}
+                {props?.buttonlabel2}
               </Button>
               <Button
                 className="cursor-pointer flex items-center justify-center min-w-[76px] rounded-[9px]"
@@ -158,7 +158,7 @@ const HomeLayout228 = (props) => {
                 variant="fill"
               >
                 <div className="!text-black-900 font-roboto text-base text-left">
-                  {props?.actionbuttontwo2}
+                  {props?.buttonlabelone2}
                 </div>
               </Button>
             </div>
@@ -173,18 +173,15 @@ HomeLayout228.defaultProps = {
   sectionheading: "Medium length section heading goes here",
   sectiondescription:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-  actionbuttonone: "Button",
-  actionbuttontwo: "Button",
+  buttonlabel: "Button",
   sectionheading1: "Medium length section heading goes here",
   sectiondescription1:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-  actionbuttonone1: "Button",
-  actionbuttontwo1: "Button",
+  buttonlabel1: "Button",
   sectionheading2: "Medium length section heading goes here",
   sectiondescription2:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-  actionbuttonone2: "Button",
-  actionbuttontwo2: "Button",
+  buttonlabel2: "Button",
 };
 
 export default HomeLayout228;

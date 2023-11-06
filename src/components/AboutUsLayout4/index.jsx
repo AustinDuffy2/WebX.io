@@ -37,7 +37,7 @@ const AboutUsLayout4 = (props) => {
                     className="text-black-900 text-xl w-full"
                     size="txtRobotoBold20"
                   >
-                    {props?.subheadingonetext}
+                    {props?.subheadingoneon}
                   </Text>
                   <Text
                     className="leading-[150.00%] max-w-[291px] md:max-w-full text-base text-black-900"
@@ -51,7 +51,7 @@ const AboutUsLayout4 = (props) => {
                     className="text-black-900 text-xl w-full"
                     size="txtRobotoBold20"
                   >
-                    {props?.subheadingtwotext}
+                    {props?.subheadingtwo}
                   </Text>
                   <Text
                     className="leading-[150.00%] max-w-[291px] md:max-w-full text-base text-black-900"
@@ -107,14 +107,13 @@ AboutUsLayout4.defaultProps = {
   headingtwo: "Discover Your Dream Property with Our AI Platform",
   description:
     "Our AI platform utilizes advanced technology to provide users with an effortless way to find the perfect property. With our powerful search capabilities, you can easily explore a wide range of commercial real estate, multi-family, industrial sites, and rental properties around the world.",
-  subheadingonetext: "Efficient Search",
+  subheadingoneon: "Efficient Search",
   textone:
     "Quickly find the properties that meet your specific criteria and preferences.",
-  subheadingtwotext: "Smart Recommendations",
+  subheadingtwo: "Smart Recommendations",
   texttwo:
     "Receive personalized property recommendations based on your search history and preferences.",
   learnmore: "Learn More",
-  signup: "Sign Up",
 };
 
 export default AboutUsLayout4;

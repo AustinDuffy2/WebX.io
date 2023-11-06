@@ -11,14 +11,14 @@ const ContactTeam1 = (props) => {
             className="text-base text-black-900 text-center w-auto"
             size="txtRobotoSemiBold16"
           >
-            {props?.subheadingOne}
+            {props?.subheadingone}
           </Text>
           <div className="flex flex-col gap-6 items-center justify-start w-full">
             <Text
               className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 text-center w-full"
               size="txtRobotoCondensedBold48"
             >
-              {props?.headingTwo}
+              {props?.headingtwo}
             </Text>
             <Text
               className="text-black-900 text-center text-lg w-full"
@@ -407,7 +407,7 @@ const ContactTeam1 = (props) => {
                 className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 text-center w-full"
                 size="txtRobotoBold32"
               >
-                {props?.headingThree}
+                {props?.headingthree}
               </Text>
               <Text
                 className="text-black-900 text-center text-lg w-full"
@@ -433,8 +433,8 @@ const ContactTeam1 = (props) => {
 };
 
 ContactTeam1.defaultProps = {
-  subheadingOne: "Tagline",
-  headingTwo: "Our team",
+  subheadingone: "Tagline",
+  headingtwo: "Our team",
   languageOne: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   name: "Full name",
   jobtitle: "Job title",
@@ -467,7 +467,7 @@ ContactTeam1.defaultProps = {
   jobtitle7: "Job title",
   text5:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-  headingThree: "We’re hiring!",
+  headingthree: "We’re hiring!",
   languageTwo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   button: "Button",
 };

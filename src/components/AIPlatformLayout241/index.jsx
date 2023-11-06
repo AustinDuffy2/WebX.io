@@ -140,7 +140,6 @@ AIPlatformLayout241.defaultProps = {
   descriptionfour:
     "Receive tailored recommendations based on your preferences, ensuring you find the best investment opportunities.",
   learnmoreone: "Learn More",
-  signupone: "Sign Up",
 };
 
 export default AIPlatformLayout241;

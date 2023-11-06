@@ -37,7 +37,7 @@ const PropertyDetailsLayout22 = (props) => {
                 size="md"
                 variant="fill"
               >
-                {props?.learnmorelabel}
+                {props?.learnmoretext}
               </Button>
               <Button
                 className="cursor-pointer flex items-center justify-center min-w-[87px]"
@@ -53,7 +53,7 @@ const PropertyDetailsLayout22 = (props) => {
                 variant="fill"
               >
                 <div className="!text-black-900 font-roboto text-base text-left">
-                  {props?.signuplabel}
+                  {props?.signuptext}
                 </div>
               </Button>
             </div>
@@ -73,8 +73,8 @@ PropertyDetailsLayout22.defaultProps = {
   headingtext: "Key Features of the Property",
   descriptiontext:
     "Discover the amazing amenities, nearby facilities, and investment potential of this property.",
-  learnmorelabel: "Learn More",
-  signuplabel: "Sign Up",
+  learnmoretext: "Learn More",
+  signuptext: "Sign Up",
 };
 
 export default PropertyDetailsLayout22;

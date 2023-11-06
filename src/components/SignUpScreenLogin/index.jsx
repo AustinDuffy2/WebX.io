@@ -66,7 +66,7 @@ const SignUpScreenLogin = (props) => {
                 {props?.email}
               </Text>
               <Input
-                name="textinput_One"
+                name="textinputone"
                 placeholder=""
                 className="p-0 w-full"
                 wrapClassName="flex h-12 outline outline-[1px] outline-black-900 w-full"
@@ -83,7 +83,7 @@ const SignUpScreenLogin = (props) => {
                 {props?.password}
               </Text>
               <Input
-                name="textinput_Two"
+                name="textinputtwo"
                 placeholder=""
                 className="p-0 w-full"
                 wrapClassName="flex h-12 outline outline-[1px] outline-black-900 w-full"
@@ -128,7 +128,7 @@ const SignUpScreenLogin = (props) => {
             className="text-base text-black-900 text-center w-auto"
             size="txtRobotoRegular16"
           >
-            {props?.textOne}
+            {props?.textone}
           </Text>
         </div>
       </div>
@@ -146,7 +146,7 @@ SignUpScreenLogin.defaultProps = {
   password: "Password*",
   signUp: "Sign Up",
   signUpWithGoogle: "Sign Up with Google",
-  textOne: "© 2022 Relume",
+  textone: "© 2022 Relume",
 };
 
 export default SignUpScreenLogin;

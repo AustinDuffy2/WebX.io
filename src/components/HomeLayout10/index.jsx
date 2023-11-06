@@ -24,13 +24,13 @@ const HomeLayout10 = (props) => {
                 className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 text-center w-full"
                 size="txtRobotoCondensedBold48"
               >
-                {props?.heading}
+                {props?.headingone}
               </Text>
               <Text
                 className="leading-[150.00%] max-w-[1297px] md:max-w-full text-black-900 text-center text-lg"
                 size="txtRobotoRegular18"
               >
-                {props?.description}
+                {props?.descriptionone}
               </Text>
             </div>
           </div>
@@ -58,7 +58,7 @@ const HomeLayout10 = (props) => {
               <Img
                 className="h-[46px] w-[46px]"
                 src="images/img_iconrelume.svg"
-                alt="iconrelume_One"
+                alt="iconrelumeone"
               />
               <Text
                 className="text-black-900 text-center text-xl w-full"
@@ -82,8 +82,8 @@ const HomeLayout10 = (props) => {
 
 HomeLayout10.defaultProps = {
   subheading: "Simplify",
-  heading: "Find Your Dream Property with Ease",
-  description: (
+  headingone: "Find Your Dream Property with Ease",
+  descriptionone: (
     <>
       Our highly trained AI platform makes searching for properties a breeze.
       Whether you&#39;re looking for commercial real estate, multi-family homes,

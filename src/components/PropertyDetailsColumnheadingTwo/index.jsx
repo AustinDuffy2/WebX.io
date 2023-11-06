@@ -59,7 +59,7 @@ const PropertyDetailsColumnheadingTwo = (props) => {
                   className="text-black-900 text-xl w-full"
                   size="txtRobotoBold20"
                 >
-                  {props?.text}
+                  {props?.client}
                 </Text>
                 <Text
                   className="text-base text-black-900 w-full"
@@ -73,41 +73,41 @@ const PropertyDetailsColumnheadingTwo = (props) => {
                   className="text-black-900 text-xl w-full"
                   size="txtRobotoBold20"
                 >
-                  {props?.text1}
+                  {props?.date}
                 </Text>
                 <Text
                   className="text-base text-black-900 w-full"
                   size="txtRobotoRegular16"
                 >
-                  {props?.date}
+                  {props?.datevalue}
                 </Text>
               </div>
               <div className="flex flex-1 flex-col gap-2 items-start justify-start w-full">
                 <Text
                   className="text-black-900 text-xl w-full"
                   size="txtRobotoBold20"
-                >
-                  {props?.text2}
-                </Text>
-                <Text
-                  className="text-base text-black-900 w-full"
-                  size="txtRobotoRegular16"
                 >
                   {props?.role}
                 </Text>
+                <Text
+                  className="text-base text-black-900 w-full"
+                  size="txtRobotoRegular16"
+                >
+                  {props?.rolevalue}
+                </Text>
               </div>
               <div className="flex flex-1 flex-col gap-2 items-start justify-start w-full">
                 <Text
                   className="text-black-900 text-xl w-full"
                   size="txtRobotoBold20"
                 >
-                  {props?.text3}
+                  {props?.website}
                 </Text>
                 <Text
                   className="text-base text-black-900 underline w-full"
                   size="txtRobotoRegular16"
                 >
-                  {props?.website}
+                  {props?.websiteurl}
                 </Text>
               </div>
             </div>
@@ -125,14 +125,14 @@ PropertyDetailsColumnheadingTwo.defaultProps = {
   waterfront: "Waterfront",
   luxury: "Luxury",
   exclusive: "Exclusive",
-  text: "Client",
+  client: "Client",
   clientname: "John Doe",
-  text1: "Date",
-  date: "April 2023",
-  text2: "Role",
-  role: "Architect",
-  text3: "Website",
-  website: "www.luxurycondos.com",
+  date: "Date",
+  datevalue: "April 2023",
+  role: "Role",
+  rolevalue: "Architect",
+  website: "Website",
+  websiteurl: "www.luxurycondos.com",
 };
 
 export default PropertyDetailsColumnheadingTwo;

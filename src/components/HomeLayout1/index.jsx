@@ -6,27 +6,27 @@ const HomeLayout1 = (props) => {
   return (
     <>
       <div className={props.className}>
-        <div className="flex md:flex-col flex-row md:gap-10 gap-[76.83px] items-center justify-start w-full">
+        <div className="flex md:flex-col flex-row md:gap-10 gap-[76.83px] items-center justify-center w-full">
           <div className="flex flex-1 flex-col gap-[23.05px] items-start justify-start w-full">
             <div className="flex flex-col gap-[15.37px] items-center justify-start w-full">
               <Text
                 className="text-base text-black-900 text-center w-auto"
                 size="txtRobotoSemiBold16"
               >
-                {props?.subheading}
+                {props?.subheadingoneontext}
               </Text>
               <div className="flex flex-col gap-[23.05px] items-center justify-start w-full">
                 <Text
                   className="leading-[120.00%] max-w-[610px] md:max-w-full text-5xl sm:text-[38px] md:text-[44px] text-black-900 text-center"
                   size="txtRobotoCondensedBold48"
                 >
-                  {props?.heading}
+                  {props?.headingfivetext}
                 </Text>
                 <Text
                   className="leading-[150.00%] max-w-[610px] md:max-w-full text-black-900 text-center text-lg"
                   size="txtRobotoRegular18"
                 >
-                  {props?.description}
+                  {props?.descriptionfivetext}
                 </Text>
               </div>
             </div>
@@ -38,7 +38,7 @@ const HomeLayout1 = (props) => {
                 size="sm"
                 variant="fill"
               >
-                {props?.learnmorebutton}
+                {props?.learnmorebuttontext}
               </Button>
               <div className="h-[23px] relative w-[83px]">
                 <div className="absolute bg-white-A700 flex flex-col h-full inset-[0] items-center justify-center m-auto rounded-[9px] w-auto">
@@ -46,7 +46,7 @@ const HomeLayout1 = (props) => {
                     className="text-base text-black-900 w-auto"
                     size="txtRobotoRegular16"
                   >
-                    {props?.button}
+                    {props?.signupbuttontext}
                   </Text>
                 </div>
                 <Img
@@ -58,7 +58,7 @@ const HomeLayout1 = (props) => {
             </div>
           </div>
           <Img
-            className="flex flex-1 md:flex-none h-[614px] sm:h-auto max-h-[614px] max-w-[614px] object-cover rounded-[28px] sm:w-[] md:w-[]"
+            className="flex-1 md:flex-none h-[614px] sm:h-auto max-h-[614px] object-cover rounded-[28px] sm:w-[] md:w-[]"
             src="images/img_placeholderimage_614x1297.png"
             alt="placeholderimag_Three"
           />
@@ -69,12 +69,11 @@ const HomeLayout1 = (props) => {
 };
 
 HomeLayout1.defaultProps = {
-  subheading: "Discover",
-  heading: "Unleash the Power of AI in Real Estate",
-  description:
+  subheadingoneontext: "Discover",
+  headingfivetext: "Unleash the Power of AI in Real Estate",
+  descriptionfivetext:
     "Experience the speed, accuracy, and global reach of our AI platform for real estate data. Find commercial real estate, multi-family properties, industrial sites, and rental properties around the world with ease.",
-  learnmorebutton: "Learn More",
-  button: "Sign Up",
+  learnmorebuttontext: "Learn More",
 };
 
 export default HomeLayout1;

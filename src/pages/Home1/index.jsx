@@ -9,16 +9,13 @@ import HomeLayout10 from "components/HomeLayout10";
 import HomeLayout219 from "components/HomeLayout219";
 import HomeLayout228 from "components/HomeLayout228";
 import HomeTestimonial4 from "components/HomeTestimonial4";
-import SignUpScreenNavbar11 from "components/SignUpScreenNavbar11";
+import NavBar from "components/NavBar";
 
 const Home1Page = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-roboto gap-[50px] items-start justify-start mx-auto px-2.5 py-10 w-auto sm:w-full md:w-full">
-        <SignUpScreenNavbar11
-          className="bg-white-A700 flex flex-col items-start justify-start max-w-[1420px] mx-auto p-5 md:px-5 w-full"
-          linkfour="Link Four"
-        />
+        <NavBar className="bg-white-A700 flex flex-col items-start justify-start max-w-[1420px] mx-auto p-5 md:px-5 w-full" />
         <HomeHeader26 className="bg-white-A700 flex md:flex-col flex-row md:gap-10 gap-[76.83px] items-start justify-center max-w-[1420px] mx-auto px-16 md:px-5 py-28 w-full" />
         <div className="bg-white-A700 flex flex-col gap-[46.1px] items-center justify-start max-w-[1420px] mx-auto md:px-5 px-[61.47px] py-28 w-full">
           <Text

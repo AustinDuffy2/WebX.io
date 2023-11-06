@@ -13,13 +13,13 @@ const AIPlatformLayout121 = (props) => {
                 className="text-base text-black-900 w-auto"
                 size="txtRobotoSemiBold16"
               >
-                {props?.subheadingTwo}
+                {props?.subheadingtwo}
               </Text>
               <Text
                 className="leading-[120.00%] max-w-[606px] md:max-w-full text-5xl sm:text-[38px] md:text-[44px] text-black-900"
                 size="txtRobotoCondensedBold48"
               >
-                {props?.headingThree}
+                {props?.headingthree}
               </Text>
             </div>
             <div className="flex flex-row gap-6 items-center justify-start pt-4 w-auto">
@@ -70,13 +70,13 @@ const AIPlatformLayout121 = (props) => {
                     className="text-black-900 text-xl w-full"
                     size="txtRobotoBold20"
                   >
-                    {props?.inputcriterialabel}
+                    {props?.inputcriteriaheading}
                   </Text>
                   <Text
                     className="text-base text-black-900 w-full"
                     size="txtRobotoRegular16"
                   >
-                    {props?.text}
+                    {props?.inputcriteriatext}
                   </Text>
                 </div>
               </div>
@@ -94,13 +94,13 @@ const AIPlatformLayout121 = (props) => {
                     className="text-black-900 text-xl w-full"
                     size="txtRobotoBold20"
                   >
-                    {props?.receivesuggestionslabel}
+                    {props?.receivesuggestionsheading}
                   </Text>
                   <Text
                     className="leading-[150.00%] max-w-[518px] md:max-w-full text-base text-black-900"
                     size="txtRobotoRegular16"
                   >
-                    {props?.text1}
+                    {props?.receivesuggestionstext}
                   </Text>
                 </div>
               </div>
@@ -118,13 +118,13 @@ const AIPlatformLayout121 = (props) => {
                     className="text-black-900 text-xl w-full"
                     size="txtRobotoBold20"
                   >
-                    {props?.exploreoptionslabel}
+                    {props?.exploreoptionsheading}
                   </Text>
                   <Text
                     className="leading-[150.00%] max-w-[518px] md:max-w-full text-base text-black-900"
                     size="txtRobotoRegular16"
                   >
-                    {props?.text2}
+                    {props?.exploreoptionstext}
                   </Text>
                 </div>
               </div>
@@ -141,13 +141,13 @@ const AIPlatformLayout121 = (props) => {
                     className="text-black-900 text-xl w-full"
                     size="txtRobotoBold20"
                   >
-                    {props?.makeinformeddecisionslabel}
+                    {props?.makeinformeddecisionsheading}
                   </Text>
                   <Text
                     className="leading-[150.00%] max-w-[518px] md:max-w-full text-base text-black-900"
                     size="txtRobotoRegular16"
                   >
-                    {props?.text3}
+                    {props?.makeinformeddecisionstext}
                   </Text>
                 </div>
               </div>
@@ -160,24 +160,23 @@ const AIPlatformLayout121 = (props) => {
 };
 
 AIPlatformLayout121.defaultProps = {
-  subheadingTwo: "Revolutionize",
-  headingThree: "Streamline Your Property Search with AI",
+  subheadingtwo: "Revolutionize",
+  headingthree: "Streamline Your Property Search with AI",
   searchlabel: "Search",
-  discoverlabel: "Discover",
-  inputcriterialabel: "Input Criteria",
-  text: (
+  inputcriteriaheading: "Input Criteria",
+  inputcriteriatext: (
     <>
       Tell us what you&#39;re looking for and let our AI platform do the rest.
     </>
   ),
-  receivesuggestionslabel: "Receive Suggestions",
-  text1:
+  receivesuggestionsheading: "Receive Suggestions",
+  receivesuggestionstext:
     "Get personalized property suggestions based on your criteria and preferences.",
-  exploreoptionslabel: "Explore Options",
-  text2:
+  exploreoptionsheading: "Explore Options",
+  exploreoptionstext:
     "Browse through a wide range of properties that match your requirements.",
-  makeinformeddecisionslabel: "Make Informed Decisions",
-  text3:
+  makeinformeddecisionsheading: "Make Informed Decisions",
+  makeinformeddecisionstext:
     "Access detailed property information and make confident choices for your next investment.",
 };
 

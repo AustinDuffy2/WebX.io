@@ -11,20 +11,20 @@ const AIPlatformContact3 = (props) => {
             className="text-base text-black-900 text-center w-auto"
             size="txtRobotoSemiBold16"
           >
-            {props?.subheadingFour}
+            {props?.subheadingfour}
           </Text>
           <div className="flex flex-col gap-6 items-start justify-start w-full">
             <Text
               className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 w-full"
               size="txtRobotoCondensedBold48"
             >
-              {props?.headingSeven}
+              {props?.headingseven}
             </Text>
             <Text
               className="text-black-900 text-lg w-full"
               size="txtRobotoRegular18"
             >
-              {props?.textSix}
+              {props?.textsix}
             </Text>
           </div>
         </div>
@@ -55,7 +55,7 @@ const AIPlatformContact3 = (props) => {
               {props?.email}
             </Text>
             <Input
-              name="textinput_One"
+              name="textinputone"
               placeholder="Placeholder"
               className="!placeholder:text-gray-800 !text-gray-800 font-roboto p-0 text-base text-left w-full"
               wrapClassName="outline outline-[1px] outline-black-900 w-full"
@@ -110,13 +110,12 @@ const AIPlatformContact3 = (props) => {
 };
 
 AIPlatformContact3.defaultProps = {
-  subheadingFour: "Innovative",
-  headingSeven: "Get in Touch",
-  textSix: "Have a question or need more information? Contact us!",
+  subheadingfour: "Innovative",
+  headingseven: "Get in Touch",
+  textsix: "Have a question or need more information? Contact us!",
   name: "Name",
   email: "Email",
   message: "Message",
-  typeyourmessageOne: "Type your message...",
   submitbutton: "Button",
 };
 

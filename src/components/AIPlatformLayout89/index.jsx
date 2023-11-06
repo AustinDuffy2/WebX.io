@@ -74,7 +74,6 @@ AIPlatformLayout89.defaultProps = {
   description:
     "Our AI platform is at the forefront of technological innovation, transforming the way we search for commercial real estate, multi-family properties, industrial sites, and rental properties around the world. With our highly trained AI platform, you can easily access comprehensive real estate data and find the perfect properties that meet your needs.",
   learnmore: "Learn More",
-  signup: "Sign Up",
 };
 
 export default AIPlatformLayout89;

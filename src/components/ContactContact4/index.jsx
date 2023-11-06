@@ -24,7 +24,7 @@ const ContactContact4 = (props) => {
               className="text-black-900 text-lg w-full"
               size="txtRobotoRegular18"
             >
-              {props?.description}
+              {props?.loremipsum}
             </Text>
           </div>
         </div>
@@ -56,7 +56,7 @@ const ContactContact4 = (props) => {
                 {props?.lastname}
               </Text>
               <Input
-                name="textinput_One"
+                name="textinputone"
                 placeholder="Placeholder"
                 className="!placeholder:text-gray-800 !text-gray-800 font-roboto p-0 text-base text-left w-full"
                 wrapClassName="outline outline-[1px] outline-black-900 w-full"
@@ -76,7 +76,7 @@ const ContactContact4 = (props) => {
                 {props?.email}
               </Text>
               <Input
-                name="textinput_Two"
+                name="textinputtwo"
                 placeholder="Placeholder"
                 className="!placeholder:text-gray-800 !text-gray-800 font-roboto p-0 text-base text-left w-full"
                 wrapClassName="outline outline-[1px] outline-black-900 w-full"
@@ -94,7 +94,7 @@ const ContactContact4 = (props) => {
                 {props?.phonenumber}
               </Text>
               <Input
-                name="textinput_Three"
+                name="textinputthree"
                 placeholder="Placeholder"
                 className="!placeholder:text-gray-800 !text-gray-800 font-roboto p-0 text-base text-left w-full"
                 wrapClassName="outline outline-[1px] outline-black-900 w-full"
@@ -110,7 +110,7 @@ const ContactContact4 = (props) => {
               className="text-base text-black-900 w-full"
               size="txtRobotoRegular16"
             >
-              {props?.choosetopic}
+              {props?.chooseatopic}
             </Text>
             <Input
               name="select"
@@ -216,7 +216,7 @@ const ContactContact4 = (props) => {
                 className="text-base text-gray-800 w-auto"
                 size="txtRobotoRegular16Gray800"
               >
-                {props?.messageplaceholder}
+                {props?.typeyourmessageOne}
               </Text>
               <div className="relative w-1.5">
                 <Line className="absolute bg-black-900 bottom-[0] h-px right-[0] rotate-[-135deg] w-0.5" />
@@ -229,7 +229,7 @@ const ContactContact4 = (props) => {
             className="font-roboto sm:pr-5 text-base text-black-900 text-left"
             inputClassName="bg-white-A700 h-[18px] mr-[5px] outline outline-[1px] outline-black-900 rounded-[9px] w-[18px]"
             checked={false}
-            name="labelSix"
+            name="labelsix"
             label="Radio"
             id="Radio7"
           ></Radio>
@@ -240,7 +240,7 @@ const ContactContact4 = (props) => {
             size="md"
             variant="fill"
           >
-            {props?.submitbutton}
+            {props?.buttonlabel}
           </Button>
         </div>
       </div>
@@ -251,16 +251,15 @@ const ContactContact4 = (props) => {
 ContactContact4.defaultProps = {
   tagline: "Tagline",
   contactus: "Contact us",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  loremipsum: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   firstname: "First name",
   lastname: "Last name",
   email: "Email",
   phonenumber: "Phone number",
-  choosetopic: "Choose a topic",
+  chooseatopic: "Choose a topic",
   whichbestdescriOne: "Which best describes you?",
   message: "Message",
-  messageplaceholder: "Type your message...",
-  submitbutton: "Button",
+  buttonlabel: "Button",
 };
 
 export default ContactContact4;

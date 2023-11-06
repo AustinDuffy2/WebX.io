@@ -11,14 +11,14 @@ const AboutUsTeam8 = (props) => {
             className="text-base text-black-900 w-auto"
             size="txtRobotoSemiBold16"
           >
-            {props?.subheadingTwo}
+            {props?.subheadingtwoon}
           </Text>
           <div className="flex flex-col gap-6 items-center justify-start w-full">
             <Text
               className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 w-full"
               size="txtRobotoCondensedBold48"
             >
-              {props?.headingThree}
+              {props?.headingthree}
             </Text>
             <Text
               className="text-black-900 text-lg w-full"
@@ -315,13 +315,13 @@ const AboutUsTeam8 = (props) => {
                 className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 w-full"
                 size="txtRobotoBold32"
               >
-                {props?.headingFour}
+                {props?.headingfour}
               </Text>
               <Text
                 className="text-black-900 text-lg w-full"
                 size="txtRobotoRegular18"
               >
-                {props?.textThree}
+                {props?.textthree}
               </Text>
             </div>
             <Button
@@ -341,8 +341,8 @@ const AboutUsTeam8 = (props) => {
 };
 
 AboutUsTeam8.defaultProps = {
-  subheadingTwo: "Revolutionizing",
-  headingThree: "Meet Our Team",
+  subheadingtwoon: "Revolutionizing",
+  headingthree: "Meet Our Team",
   loremipsumdolorOne:
     "Get to know the talented individuals driving our platform",
   name: "John Doe",
@@ -369,8 +369,8 @@ AboutUsTeam8.defaultProps = {
   jobtitle5: "Marketing",
   description5:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  headingFour: "Join Us!",
-  textThree: "Exciting opportunities to be part of our team",
+  headingfour: "Join Us!",
+  textthree: "Exciting opportunities to be part of our team",
   button: "Button",
 };
 

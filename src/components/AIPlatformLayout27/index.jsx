@@ -13,13 +13,13 @@ const AIPlatformLayout27 = (props) => {
                 className="sm:text-4xl md:text-[38px] text-[40px] text-black-900 w-full"
                 size="txtRobotoCondensedBold40"
               >
-                {props?.headingFive}
+                {props?.headingfive}
               </Text>
               <Text
                 className="leading-[150.00%] max-w-[606px] md:max-w-full text-black-900 text-lg"
                 size="txtRobotoRegular18"
               >
-                {props?.textTwo}
+                {props?.texttwo}
               </Text>
             </div>
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start py-2 w-full">
@@ -28,13 +28,13 @@ const AIPlatformLayout27 = (props) => {
                   className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 w-full"
                   size="txtRobotoCondensedBold48"
                 >
-                  {props?.numberTwo}
+                  {props?.numbertwo}
                 </Text>
                 <Text
                   className="leading-[150.00%] max-w-[291px] md:max-w-full text-base text-black-900"
                   size="txtRobotoRegular16"
                 >
-                  {props?.textThree}
+                  {props?.textthree}
                 </Text>
               </div>
               <div className="flex flex-1 flex-col gap-2 items-start justify-start w-full">
@@ -42,13 +42,13 @@ const AIPlatformLayout27 = (props) => {
                   className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 w-full"
                   size="txtRobotoCondensedBold48"
                 >
-                  {props?.numberThree}
+                  {props?.numberthree}
                 </Text>
                 <Text
                   className="leading-[150.00%] max-w-[291px] md:max-w-full text-base text-black-900"
                   size="txtRobotoRegular16"
                 >
-                  {props?.textFour}
+                  {props?.textfour}
                 </Text>
               </div>
             </div>
@@ -65,13 +65,13 @@ const AIPlatformLayout27 = (props) => {
 };
 
 AIPlatformLayout27.defaultProps = {
-  headingFive: "Discover the Power of Our Platform",
-  textTwo:
+  headingfive: "Discover the Power of Our Platform",
+  texttwo:
     "With our highly trained AI platform, we have successfully found countless properties and satisfied users worldwide.",
-  numberTwo: "50%",
-  textThree: "Increase in Property Discoveries and User Satisfaction",
-  numberThree: "50%",
-  textFour: "Growth in Property Listings and User Engagement",
+  numbertwo: "50%",
+  textthree: "Increase in Property Discoveries and User Satisfaction",
+  numberthree: "50%",
+  textfour: "Growth in Property Listings and User Engagement",
 };
 
 export default AIPlatformLayout27;

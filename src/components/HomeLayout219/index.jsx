@@ -8,7 +8,7 @@ const HomeLayout219 = (props) => {
       <div className={props.className}>
         <div className="flex md:flex-col flex-row md:gap-10 gap-[76.83px] items-center justify-center w-full">
           <Img
-            className="flex-1 md:flex-none h-[614px] sm:h-auto max-h-[614px] max-w-[614px] object-cover rounded-[28px] sm:w-[] md:w-[]"
+            className="flex-1 md:flex-none h-[614px] sm:h-auto max-h-[614px] object-cover rounded-[28px] sm:w-[] md:w-[]"
             src="images/img_placeholderimage_614x1297.png"
             alt="placeholderimag_Two"
           />

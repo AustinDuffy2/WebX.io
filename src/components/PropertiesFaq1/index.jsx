@@ -27,13 +27,13 @@ const PropertiesFaq1 = (props) => {
                 className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 text-center w-full"
                 size="txtRobotoBold32"
               >
-                {props?.questionheadingtext}
+                {props?.questiontext}
               </Text>
               <Text
                 className="text-black-900 text-center text-lg w-full"
                 size="txtRobotoRegular18"
               >
-                {props?.questiondescriptiontext}
+                {props?.answertext}
               </Text>
             </div>
             <Button
@@ -56,8 +56,8 @@ PropertiesFaq1.defaultProps = {
   headingtext: "FAQs",
   descriptiontext:
     "Find answers to commonly asked questions about the property, including financing options, zoning regulations, and maintenance responsibilities.",
-  questionheadingtext: "Still have questions?",
-  questiondescriptiontext: "Contact us for more information.",
+  questiontext: "Still have questions?",
+  answertext: "Contact us for more information.",
   buttontext: "Button",
 };
 

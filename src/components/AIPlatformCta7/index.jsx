@@ -13,13 +13,13 @@ const AIPlatformCta7 = (props) => {
                 className="sm:text-4xl md:text-[38px] text-[40px] text-black-900 w-full"
                 size="txtRobotoCondensedBold40"
               >
-                {props?.headingSix}
+                {props?.headingsix}
               </Text>
               <Text
                 className="text-black-900 text-lg w-full"
                 size="txtRobotoRegular18"
               >
-                {props?.textFive}
+                {props?.textfive}
               </Text>
             </div>
           </div>
@@ -50,8 +50,8 @@ const AIPlatformCta7 = (props) => {
 };
 
 AIPlatformCta7.defaultProps = {
-  headingSix: "Unlock the Power of AI",
-  textFive: "Discover the Future of Real Estate with Our AI Platform",
+  headingsix: "Unlock the Power of AI",
+  textfive: "Discover the Future of Real Estate with Our AI Platform",
   signuplabel: "Sign Up",
   learnmorelabel: "Learn More",
 };

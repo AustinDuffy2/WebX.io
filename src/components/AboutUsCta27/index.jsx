@@ -15,13 +15,13 @@ const AboutUsCta27 = (props) => {
               className="text-5xl sm:text-[38px] md:text-[44px] text-center text-white-A700 w-full"
               size="txtRobotoCondensedBold48WhiteA700"
             >
-              {props?.headingFive}
+              {props?.headingtext}
             </Text>
             <Text
               className="text-center text-lg text-white-A700 w-full"
               size="txtRobotoRegular18WhiteA700"
             >
-              {props?.textFour}
+              {props?.descriptiontext}
             </Text>
           </div>
           <div className="flex flex-row gap-4 items-start justify-start pt-4 w-auto">
@@ -32,7 +32,7 @@ const AboutUsCta27 = (props) => {
               size="md"
               variant="fill"
             >
-              {props?.trybutton}
+              {props?.trybuttontext}
             </Button>
             <Button
               className="!text-white-A700 cursor-pointer font-roboto min-w-[81px] text-base text-center"
@@ -41,7 +41,7 @@ const AboutUsCta27 = (props) => {
               size="md"
               variant="fill"
             >
-              {props?.nowbutton}
+              {props?.nowbuttontext}
             </Button>
           </div>
         </div>
@@ -51,11 +51,11 @@ const AboutUsCta27 = (props) => {
 };
 
 AboutUsCta27.defaultProps = {
-  headingFive: "Discover the Power of AI",
-  textFour:
+  headingtext: "Discover the Power of AI",
+  descriptiontext:
     "Find commercial real estate, multi-family, industrial sites, and rental properties worldwide.",
-  trybutton: "Try",
-  nowbutton: "Now",
+  trybuttontext: "Try",
+  nowbuttontext: "Now",
 };
 
 export default AboutUsCta27;

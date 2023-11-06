@@ -46,13 +46,13 @@ const PropertiesPortfolio8 = (props) => {
                       className="text-2xl md:text-[22px] text-black-900 sm:text-xl w-full"
                       size="txtRobotoBold24"
                     >
-                      {props?.projectname}
+                      {props?.heading1}
                     </Text>
                     <Text
                       className="leading-[150.00%] max-w-[574px] md:max-w-full text-base text-black-900"
                       size="txtRobotoRegular16"
                     >
-                      {props?.projectdescription}
+                      {props?.text}
                     </Text>
                   </div>
                   <div className="flex flex-row gap-2 items-start justify-start pt-4 w-full">
@@ -63,7 +63,7 @@ const PropertiesPortfolio8 = (props) => {
                       size="xs"
                       variant="fill"
                     >
-                      {props?.tagone}
+                      {props?.tagOne}
                     </Button>
                     <Button
                       className="!text-black-900 cursor-pointer font-roboto font-semibold min-w-[66px] text-center text-sm"
@@ -72,7 +72,7 @@ const PropertiesPortfolio8 = (props) => {
                       size="xs"
                       variant="fill"
                     >
-                      {props?.tagtwo}
+                      {props?.tagTwo}
                     </Button>
                     <Button
                       className="!text-black-900 cursor-pointer font-roboto font-semibold min-w-[76px] text-center text-sm"
@@ -81,7 +81,7 @@ const PropertiesPortfolio8 = (props) => {
                       size="xs"
                       variant="fill"
                     >
-                      {props?.tagthree}
+                      {props?.tagThree}
                     </Button>
                   </div>
                   <div className="flex flex-col items-start justify-start pt-6 w-full">
@@ -117,13 +117,13 @@ const PropertiesPortfolio8 = (props) => {
                       className="text-2xl md:text-[22px] text-black-900 sm:text-xl w-full"
                       size="txtRobotoBold24"
                     >
-                      {props?.projectname1}
+                      {props?.heading2}
                     </Text>
                     <Text
                       className="leading-[150.00%] max-w-[574px] md:max-w-full text-base text-black-900"
                       size="txtRobotoRegular16"
                     >
-                      {props?.projectdescription1}
+                      {props?.text1}
                     </Text>
                   </div>
                   <div className="flex flex-row gap-2 items-start justify-start pt-4 w-full">
@@ -185,7 +185,7 @@ const PropertiesPortfolio8 = (props) => {
             size="md"
             variant="fill"
           >
-            {props?.button2}
+            {props?.buttontext}
           </Button>
         </div>
       </div>
@@ -197,21 +197,18 @@ PropertiesPortfolio8.defaultProps = {
   subheading: "Portfolio",
   heading: "Short heading goes here",
   language: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-  projectname: "Project name here",
-  projectdescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-  tagone: "Tag one",
-  tagtwo: "Tag two",
-  tagthree: "Tag three",
-  button: "Button",
-  projectname1: "Project name here",
-  projectdescription1:
+  heading1: "Project name here",
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+  tagOne: "Tag one",
+  tagTwo: "Tag two",
+  tagThree: "Tag three",
+  heading2: "Project name here",
+  text1:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
   tagone1: "Tag one",
   tagtwo1: "Tag two",
   tagthree1: "Tag three",
-  button1: "Button",
-  button2: "Button",
+  buttontext: "Button",
 };
 
 export default PropertiesPortfolio8;

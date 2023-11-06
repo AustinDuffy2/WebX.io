@@ -15,13 +15,13 @@ const HomeCta3 = (props) => {
               className="text-5xl sm:text-[38px] md:text-[44px] text-white-A700 w-full"
               size="txtRobotoCondensedBold48WhiteA700"
             >
-              {props?.headingSix}
+              {props?.headingsix}
             </Text>
             <Text
               className="text-lg text-white-A700 w-full"
               size="txtRobotoRegular18WhiteA700"
             >
-              {props?.textFour}
+              {props?.textfour}
             </Text>
           </div>
           <div className="flex flex-row gap-[15.37px] items-start justify-start pt-[15.37px] w-full">
@@ -51,8 +51,8 @@ const HomeCta3 = (props) => {
 };
 
 HomeCta3.defaultProps = {
-  headingSix: "Discover Your Dream Properties",
-  textFour:
+  headingsix: "Discover Your Dream Properties",
+  textfour:
     "Find the perfect commercial real estate, multi-family, industrial sites, and rental properties worldwide.",
   signuplabel: "Sign Up",
   learnmorelabel: "Learn More",

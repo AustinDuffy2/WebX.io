@@ -7,16 +7,13 @@ import AboutUsLayout4 from "components/AboutUsLayout4";
 import AboutUsTeam8 from "components/AboutUsTeam8";
 import Footer from "components/Footer";
 import HomeLayout228 from "components/HomeLayout228";
-import SignUpScreenNavbar11 from "components/SignUpScreenNavbar11";
+import NavBar from "components/NavBar";
 
 const AboutUsPage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-roboto gap-[50px] items-start justify-start mx-auto px-2.5 py-10 w-auto sm:w-full md:w-full">
-        <SignUpScreenNavbar11
-          className="bg-white-A700 flex flex-col items-start justify-start max-w-[1420px] mx-auto p-5 md:px-5 w-full"
-          linkfour="Link Four"
-        />
+        <NavBar className="bg-white-A700 flex flex-col items-start justify-start max-w-[1420px] mx-auto p-5 md:px-5 w-full" />
         <AboutUsContact15 className="bg-white-A700 flex flex-col md:gap-10 gap-20 h-[1286px] md:h-auto items-center justify-start max-w-[1420px] mx-auto px-16 md:px-5 py-28 w-full" />
         <div className="bg-white-A700 flex flex-col gap-12 items-center justify-start max-w-[1420px] mx-auto px-16 md:px-5 py-28 w-full">
           <Text

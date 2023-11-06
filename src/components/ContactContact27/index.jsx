@@ -124,10 +124,8 @@ ContactContact27.defaultProps = {
   language: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   locationname: "Sydney",
   locationaddress: "123 Sample St, Sydney NSW 2000 AU",
-  button: "Button",
   locationname1: "New York",
   locationaddress1: "123 Sample St, New York NY 10000 USA",
-  button1: "Button",
 };
 
 export default ContactContact27;

@@ -18,13 +18,13 @@ const PropertiesLayout237 = (props) => {
               className="text-5xl sm:text-[38px] md:text-[44px] text-black-900 text-center w-full"
               size="txtRobotoCondensedBold48"
             >
-              {props?.headingtext}
+              {props?.headingfour}
             </Text>
             <Text
               className="leading-[150.00%] max-w-[1292px] md:max-w-full text-black-900 text-center text-lg"
               size="txtRobotoRegular18"
             >
-              {props?.descriptiontext}
+              {props?.description}
             </Text>
           </div>
         </div>
@@ -44,13 +44,13 @@ const PropertiesLayout237 = (props) => {
                   className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 text-center w-full"
                   size="txtRobotoBold32"
                 >
-                  {props?.locationheadingtext}
+                  {props?.locationheading}
                 </Text>
                 <Text
                   className="leading-[150.00%] max-w-[398px] md:max-w-full text-base text-black-900 text-center"
                   size="txtRobotoRegular16"
                 >
-                  {props?.locationdescriptiontext}
+                  {props?.locationdescription}
                 </Text>
               </div>
             </div>
@@ -65,13 +65,13 @@ const PropertiesLayout237 = (props) => {
                   className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 text-center w-full"
                   size="txtRobotoBold32"
                 >
-                  {props?.propertyheadingtext}
+                  {props?.propertyheading}
                 </Text>
                 <Text
                   className="leading-[150.00%] max-w-[398px] md:max-w-full text-base text-black-900 text-center"
                   size="txtRobotoRegular16"
                 >
-                  {props?.propertydescriptiontext}
+                  {props?.propertydescription}
                 </Text>
               </div>
             </div>
@@ -86,13 +86,13 @@ const PropertiesLayout237 = (props) => {
                   className="leading-[130.00%] max-w-[398px] md:max-w-full md:text-3xl sm:text-[28px] text-[32px] text-black-900 text-center"
                   size="txtRobotoBold32"
                 >
-                  {props?.sizeheadingtext}
+                  {props?.sizeheading}
                 </Text>
                 <Text
                   className="leading-[150.00%] max-w-[398px] md:max-w-full text-base text-black-900 text-center"
                   size="txtRobotoRegular16"
                 >
-                  {props?.sizedescriptiontext}
+                  {props?.sizedescription}
                 </Text>
               </div>
             </div>
@@ -105,7 +105,7 @@ const PropertiesLayout237 = (props) => {
               size="md"
               variant="fill"
             >
-              {props?.searchbuttontext}
+              {props?.searchbutton}
             </Button>
             <Button
               className="cursor-pointer flex items-center justify-center min-w-[87px]"
@@ -121,7 +121,7 @@ const PropertiesLayout237 = (props) => {
               variant="fill"
             >
               <div className="!text-black-900 font-roboto text-base text-left">
-                {props?.signupbuttontext}
+                {props?.signupbutton}
               </div>
             </Button>
           </div>
@@ -133,8 +133,8 @@ const PropertiesLayout237 = (props) => {
 
 PropertiesLayout237.defaultProps = {
   tagline: "Discover",
-  headingtext: "Find Your Perfect Property with Advanced Search Filters",
-  descriptiontext: (
+  headingfour: "Find Your Perfect Property with Advanced Search Filters",
+  description: (
     <>
       Our platform offers a highly advanced search feature that allows you to
       easily find the perfect property. With filters for location, property
@@ -142,21 +142,20 @@ PropertiesLayout237.defaultProps = {
       find exactly what you&#39;re looking for.
     </>
   ),
-  locationheadingtext: "Location-Based Search",
-  locationdescriptiontext:
+  locationheading: "Location-Based Search",
+  locationdescription:
     "Easily search for properties based on your desired location.",
-  propertyheadingtext: "Property Type Filter",
-  propertydescriptiontext:
+  propertyheading: "Property Type Filter",
+  propertydescription:
     "Filter properties based on their type, such as commercial real estate, multi-family, or industrial sites.",
-  sizeheadingtext: "Size and Price Range Filters",
-  sizedescriptiontext: (
+  sizeheading: "Size and Price Range Filters",
+  sizedescription: (
     <>
       Narrow down your search by specifying the size and price range of the
       properties you&#39;re interested in.
     </>
   ),
-  searchbuttontext: "Search",
-  signupbuttontext: "Sign Up",
+  searchbutton: "Search",
 };
 
 export default PropertiesLayout237;
